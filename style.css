@@ -1,0 +1,124 @@
+
+body {
+    background-color: #5b5c5e;
+    min-width: 600px;
+    min-height: 800px;
+    margin-right:20px;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    font-family: 'Oswald', sans-serif;
+    
+}
+.f15pt {
+    font-size: 12px;
+    margin-left: 20px;
+    width: 200px;
+    font-family: 'Oswald', sans-serif;
+    float:right;
+    padding:20px;
+    text-align: center;
+}
+.content {
+    background: #5847ef;
+    padding: 15px;
+    font-size: 10pt;
+    color: #fefefe;
+    width: 100%;
+    max-width: 500px;
+    border: 5px solid #5847ef;
+}
+.text{
+  margin:5px;
+  font-weight: bolder;
+  font-size: 15px;
+  font-family: 'Oswald', sans-serif;
+}
+.voilet0 {
+    background-color: rgb(92, 91, 91);
+}
+.voilet1 {
+    background-color: #5847ef;
+}
+.voilet2 {
+    background-color: rgb(92, 91, 91);
+}
+textarea {
+  margin-top:5px;
+    width: 100%;
+    min-height: 90px;
+}
+
+.center {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Center1{
+    padding-top:20px;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#passcode {
+    padding: 6px;
+    border: 0px;
+    outline: none;
+    border-radius: 20px;
+}
+
+.top-relative {
+    position: relative;
+}
+
+.top-bar {
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    background-color: #fefefe;
+	padding: 5px;
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+/* CSS */
+#encrypt,
+#decrypt {
+  background: linear-gradient(to bottom right, #5847ef, #5a81ff);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+#encrypt:not([disabled]):focus,
+#decrypt:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(5, 0, 1, 0.5), .125rem .125rem 1rem rgba(67, 109, 245, 0.5);
+}
+
+#encrypt:not([disabled]):hover,
+#decrypt:not([disabled]):hover {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(5, 0, 1, 0.5), .125rem .125rem 1rem rgba(67, 109, 245, 0.5);
+}

@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+
+<body>
+
+    <div class="center top-relative">
+        <div class="content voilet1">
+            <span class="text">Master password</span>
+            <input class="f15pt" type="password" id="passcode" placeholder="********" />
+        </div>
+        <div class="content voilet2">
+            <span class="text">Text area</span>
+            <textarea id="originalContent"></textarea>
+        </div>
+        <div class="content voilet0">
+            <span class="text">Encrypted Output</span>
+            <textarea id="encryptedContent" readonly></textarea>
+        </div>
+
+        <div class="content voilet0">
+            <span class="text">Decrypt Input</span>
+            <textarea id="decryptInput"></textarea>
+        </div>
+        <div class="content voilet0">
+            <span class="text">Decrypted Output</span>
+            <textarea id="decryptedContent" readonly></textarea>
+        </div>
+        <div class="Center1">
+            <button class="text" id="encrypt">Encrypt</button>
+            <button class="text" id="decrypt">Decrypt</button>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
